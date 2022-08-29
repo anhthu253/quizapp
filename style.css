@@ -4,14 +4,17 @@ body {
 main,
 header,
 footer {
-  padding: 10px;
+  --padding: 10px;
   border: solid black;
   width: 100%;
 }
 header {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-bottom: none;
 }
+
 main {
   height: 100vh;
 }
@@ -65,14 +68,25 @@ ul {
 }
 
 footer > ul {
-  gap: 20px;
+  justify-content: space-evenly;
 }
 
 footer > ul a {
-  gap: 20px;
   color: white;
 }
 
-footer > ul a:focus:visited {
+footer > ul a:focus {
   color: red;
+}
+
+footer > ul a:focus {
+  color: red;
+}
+
+a.bmk {
+  color: red;
+}
+
+i {
+  font-size: 28px;
 }
