@@ -1,0 +1,92 @@
+body {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url("images/background-template.jpg");
+}
+[class$="-section"] {
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  padding-left: 100px;
+  padding-right: 50px;
+  display: flex;
+}
+
+header .content,
+.main-section .content {
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+[class$="-section"] h3 {
+  color: indianred;
+}
+
+header {
+  width: 100%;
+
+  color: darkgoldenrod;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+article.name {
+  display: flex;
+  align-items: center;
+}
+ul.menu {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  gap: 10px;
+}
+
+ul.menu a {
+  text-decoration: none;
+  color: darkgoldenrod;
+}
+
+.statement {
+  width: 60%;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: fantasy;
+}
+
+section.timeline-section {
+  background-color: rgb(131, 131, 109);
+}
+article.profile-img {
+  width: 35%;
+}
+
+article.profile-img img {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.timeline-section .content {
+  display: flex;
+  flex-direction: column;
+}
+article.timeline {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.logo {
+  padding: 20px;
+  max-width: 25%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 3px 5px 5px 3px grey;
+}
