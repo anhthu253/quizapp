@@ -72,3 +72,7 @@ footer > ul a {
   gap: 20px;
   color: white;
 }
+
+footer > ul a:focus:visited {
+  color: red;
+}
