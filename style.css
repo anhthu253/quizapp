@@ -13,6 +13,7 @@ header {
   justify-content: center;
   align-items: center;
   border-bottom: none;
+  background-color: lightcoral;
 }
 
 main {
@@ -31,8 +32,9 @@ footer {
   justify-content: space-between;
   border: solid black;
   margin: 10px;
-  height: 50%;
+  height: auto;
   position: relative;
+  background-color: antiquewhite;
 }
 
 .bookmark {
