@@ -17,11 +17,13 @@ header {
 }
 
 main {
-  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 footer {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   background-color: black;
   color: white;
@@ -31,8 +33,9 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   border: solid black;
-  margin: 10px;
-  height: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 300px;
   position: relative;
   background-color: antiquewhite;
 }
@@ -77,10 +80,10 @@ footer > ul a {
   color: white;
 }
 
-footer > ul a:focus:visited {
-  color: lightcoral;
-}
-
 i {
   font-size: 28px;
+}
+
+.current {
+  color: lightcoral;
 }
