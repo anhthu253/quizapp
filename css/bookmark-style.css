@@ -77,16 +77,8 @@ footer > ul a {
   color: white;
 }
 
-footer > ul a:focus {
-  color: red;
-}
-
-footer > ul a:focus {
-  color: red;
-}
-
-footer > ul a.bmk {
-  color: red;
+footer > ul a:focus:visited {
+  color: lightcoral;
 }
 
 i {

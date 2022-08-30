@@ -17,22 +17,25 @@ header {
 }
 
 main {
-  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 footer {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   background-color: black;
   color: white;
 }
 [class^="card"] {
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
   justify-content: space-between;
   border: solid black;
-  margin: 10px;
-  height: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 300px;
   position: relative;
   background-color: antiquewhite;
 }
@@ -54,8 +57,8 @@ section.option {
 ul {
   display: flex;
   flex-flow: row wrap;
-  gap: 10px;
   list-style-type: none;
+  gap: 10px;
 }
 
 .techstack a {
@@ -78,11 +81,7 @@ footer > ul a {
 }
 
 footer > ul a:focus {
-  color: red;
-}
-
-footer > ul a:focus {
-  color: red;
+  color: lightcoral;
 }
 
 i {
